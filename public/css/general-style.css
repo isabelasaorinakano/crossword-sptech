@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* font-family: 'Fredoka One', cursive; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    scroll-behavior: smooth;
+   }
+
+body{
+     background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #1c0c12, #2e131e, #42172c, #6f1f51, #9a2980, #c138b7, #e150f8); 
+     background-repeat: no-repeat;
+     background-size:cover;
+}
