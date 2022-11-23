@@ -1,0 +1,16 @@
+.celula{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.table td{
+    height: 20px;
+    width: 20px;
+} 
+
+.table th{
+    height: 20px;
+    width: 20px;
+}
