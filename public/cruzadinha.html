@@ -14,6 +14,7 @@
 <div class="container_cruzadinha">
     <table class="table">
         <thead>
+        
             <tr id="linha1">
                 <th id="l1.1"> <input id="input_cruzadinha_letra_1" onkeyup="letra_1()" maxlength="1" placeholder="1" class="celula"></th>
                 <th id="l1.2"> <input id="input_cruzadinha_letra_2" onkeyup="letra_2()" maxlength="1" placeholder="" class="celula"></th>
@@ -353,10 +354,7 @@
         </tfoot>
     </table>
 
-</div>
-   
-
-</body>
+    
     <div id="div_dicas">
         <h3>1) _______ é a sigla que se refere a peça fundamental de qualquer dispositivo, é considerada o cérebro de um sistema.</h3>
         <h3>2) _______ é a sigla que se refere a um circuito digital que realiza operações matemáticas básicas e booleana.</h3>
@@ -376,8 +374,11 @@
         <h3>16) ______ classificação de processadores com quatro núcleos</h3>
         <h3>17) ______ determinam qual processo vai ser executado pelo núcleo do sistema.</h3>
         <h3>18) ______ tipo de memória volátil que armazenar os dados mais recentes acessados em um dispositivo</h3>
-
+        
     </div>
+</div>
+    
+</body>
 </html>
 
 
@@ -1560,7 +1561,7 @@
         } else if (letra == '') {
             input_cruzadinha_letra_91.style = "background-color: white"
         } else {
-            input_cruzadinha_letra_91.style = "background-color: red;"
+            input_cruzadinha_letra_91.style = alert('Errou')
         }
 
 

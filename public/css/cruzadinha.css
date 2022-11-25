@@ -12,6 +12,7 @@ h3{
 .container_cruzadinha{
     margin-left: 5em;
     margin-top: 5em;
+    display: flex;
 }
 .celula{
     height: 25px;
@@ -35,4 +36,9 @@ h3{
 .table th{
     height: 20px;
     width: 20px;
+}
+
+.table{
+    display: block ;
+    margin-right: 30px;
 }
