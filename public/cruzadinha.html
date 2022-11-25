@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/cruzadinha.css">
+    <link rel="shortcut icon" href="./assets/letra-c.png" type="image/x-icon">
     <title>Document</title>
 </head>
 
 <body>
-
-    <table border="1" class="table">
+<div class="container_cruzadinha">
+    <table class="table">
         <thead>
             <tr id="linha1">
                 <th id="l1.1"> <input id="input_cruzadinha_letra_1" onkeyup="letra_1()" maxlength="1" placeholder="1" class="celula"></th>
@@ -158,7 +159,7 @@
             <td id="l8.13"></td>
             <td id="l8.14"><input id="input_cruzadinha_letra_8" onkeyup="letra_8()" maxlength="1" placeholder="" class="celula"></td>
             <td id="l8.15"></td>
-            <td id="l8.16" style="background-color: black;"></td>
+            <td id="l8.16" class="celula_cheia"></td>
             </tr>
 
             <tr id="linha9">
@@ -184,7 +185,7 @@
                  <td id="l10.1"></td>
                  <td id="l10.2"></td>
                  <td id="l10.3"></td>
-                 <td id="l10.4" style="background-color: black;"></td>
+                 <td id="l10.4"  class="celula_cheia"></td>
                  <td id="l10.5"></td>
                  <td id="l10.6"></td>
                  <td id="l10.7"></td>
@@ -212,7 +213,7 @@
                 <td id="l11.10"><input id="input_cruzadinha_letra_65" onkeyup="letra_65()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l11.11"><input id="input_cruzadinha_letra_66" onkeyup="letra_66()" maxlength="1" placeholder="" class="celula"> </td>
                 <td id="l11.12"><input id="input_cruzadinha_letra_65" onkeyup="letra_65()" maxlength="1" placeholder="" class="celula"><br></td>
-                <td id="l11.13" style="background-color: black;"></td>
+                <td id="l11.13"  class="celula_cheia"></td>
                 <td id="l11.14"><input id="input_cruzadinha_letra_68" onkeyup="letra_68()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l11.15"><input id="input_cruzadinha_letra_69" onkeyup="letra_69()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l11.16"><input id="input_cruzadinha_letra_63" onkeyup="letra_63()" maxlength="1" placeholder="" class="celula"><br></td>
@@ -241,13 +242,13 @@
                 <td id="l13.1"></td>
                 <td id="l13.2"></td>
                 <td id="l13.3"></td>
-                <td id="l13.4" style="background-color: black;"></td>
+                <td id="l13.4"  class="celula_cheia"></td>
                 <td id="l13.5"></td>
                 <td id="l13.6"></td>
                 <td id="l13.7"></td>
                 <td id="l13.8"></td>
                 <td id="l13.9"></td>
-                <td id="l13.10" style="background-color: black;"></td>
+                <td id="l13.10"  class="celula_cheia"></td>
                 <td id="l13.11"></td>
                 <td id="l13.12"></td>
                 <td id="l13.13"></td>
@@ -265,7 +266,7 @@
                 <td id="l14.6"><input id="input_cruzadinha_letra_80" onkeyup="letra_80()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l14.7"><input id="input_cruzadinha_letra_81" onkeyup="letra_81()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l14.8"><input id="input_cruzadinha_letra_82" onkeyup="letra_82()" maxlength="1" placeholder="" class="celula"><br></td>
-                <td id="l14.9" style="background-color: black;"></td>
+                <td id="l14.9"  class="celula_cheia"></td>
                 <td id="l14.10"><input id="input_cruzadinha_letra_77" onkeyup="letra_75()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l14.11"> <input id="input_cruzadinha_letra_84" onkeyup="letra_84()" maxlength="1" placeholder="" class="celula"><br></td>
                 <td id="l14.12"><input id="input_cruzadinha_letra_85" onkeyup="letra_85()" maxlength="1" placeholder="" class="celula"><br></td>
@@ -351,6 +352,9 @@
             <td id="l18.16"></td>
         </tfoot>
     </table>
+
+</div>
+   
 
 </body>
     <div id="div_dicas">
