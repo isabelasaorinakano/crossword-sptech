@@ -119,3 +119,13 @@ h3{
     text-align: center;
 
 }
+
+
+.gato{
+    display: flex;
+    align-items: center;
+    background-color:  rgba(63, 94, 251, 0.596);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
